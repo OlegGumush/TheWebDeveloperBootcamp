@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input</title>
+</head>
+<body>
+	<form action="/sign-in" method="post">
+		<input type="text">
+		<input type="color">
+		<input type="radio">
+		<input type="password">
+		<input type="email">
+	</form>
+
+	<h1>Login</h1>
+	<!-- if action is nothis data is sent to my page -->
+	<!-- name is for get name to parameters (see in url) -->
+	<form>
+		<input name="name" type="text" placeholder="user name">
+		<input name="password" type="password" placeholder="password">
+		<button>Submit</button>
+		<input type="Submit" name="">
+	</form>
+	<!-- connect labal to input , in a label mark as "for" attribute and in the input mark as "id" -->
+	<form>
+		<!-- type for type input -->
+		<!-- placeholder for internal text -->
+		<!-- requered for required user to input something -->
+		<label for="username">Username:</label>
+		<input id="username" type="text" placeholder="user name" required>
+		<label for="password">Password:</label>
+		<input id="password type="password" placeholder="password" required>
+		<label for="email">Email:</label>
+		<!-- validate email -->
+		<input id="email type="email" placeholder="email" required>
+		<button>Submit</button>
+		<input type="Submit" name="">
+	</form>
+
+	<h1>Inputs Demo</h1>
+	<p>Do you prefer cats or dogs?</p>
+	
+	<!-- for one choice -->
+	<!-- we want to say html this two buttons for the same choice for that we use the "name="petChoice" atribute-->
+	<!-- value for http request get/post  -->
+	<!-- url/Lesson_04.html?petChoice=cats -->
+	<form>
+		<label for="dogs">Dogs:</label>
+		<input name="petChoice" value="dogs" type="radio" id="dogs">
+
+		<label for="cats">Cats:</label>
+		<input name="petChoice" value="cats" type="radio" id="cats">	
+
+		<label for="pojos">Pojos:</label>
+		<input name="petChoice" value="pojo" type="radio" id="pojos">
+
+		<p>What is your favorit color?</p>
+		<!-- name for http request (Lesson_04.html?color=Red)-->
+		<select name="color" >
+			<option>Red</option>
+			<option>Yellow</option>
+			<option>Blue</option>
+			<!-- if we dont put value the browser sent this "%3A%29" -->
+			<option value="happy">:)</option>
+		</select>
+		
+		<p></p>
+		
+		<label for="loh">loh:</label>
+		<!-- for multiple choice (Lesson_04.html?loh=Yes)-->
+		<input id="loh" type="checkbox" name="loh" value="yes">
+		
+		<p></p>
+
+		<input type="text" name="paragraph1">
+		
+		<p></p>
+
+		<textarea rows="10" cols="20" name="paragraph"></textarea>
+
+		<!-- if the button is the last thing in the form it submit the form (or input="submit")-->
+		<button>Go!</button>		
+	</form>
+
+
+</body>
+</html>
