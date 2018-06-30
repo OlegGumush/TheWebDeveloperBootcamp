@@ -1,0 +1,29 @@
+p {
+	/*font-family: Ariel;*/
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	/* hight of the line*/
+	line-height: 1.5; 
+	text-align: center;
+	text-decoration: underline;
+	font-size: 30px;
+}
+
+body {
+	font-size: 20px;
+}
+
+h1 {
+	/*font-family: Georgia;*/
+	font-size: 60px;
+	text-align: center;
+	/*text-decoration: line-through;*/
+	font-family: 'Indie Flower', cursive;
+}
+
+/* dynamicly double font size*/
+span {
+	font-size: 2.0em;
+}
+
+

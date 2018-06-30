@@ -1,0 +1,31 @@
+h1 {
+	color: red;
+	
+	/* 
+	comes together
+	border-color: purple
+	border-width 5px;
+	border-style: solid;
+	*/
+	border: 8px purple solid;
+}
+
+li {
+	color: #5e638e;
+}
+
+h4 {
+	color: #94d132;
+}
+
+body {
+	background: pink;
+
+/*	
+	for image
+	background: url(Images/wood.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+*/
+}
+

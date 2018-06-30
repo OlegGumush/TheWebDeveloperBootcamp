@@ -1,0 +1,24 @@
+/* size of blue rectanle */
+/* padding inside the blue rectangle */
+/* border is a borders of a rectanle */
+/* margin surround the border of a blue rectanle */
+
+p {
+	/* Content - Width and Height */
+	/*width: 200px;*/
+	width: 50%;
+
+	/* Border */
+	border: 2px solid blue;
+	/*border-left: 3px;*/
+
+	/* Padding */
+	padding: 10px;
+	/*padding-left: 40px;*/
+
+	/* Margin */
+	/*margin: 50px;*/
+	/* top right bottom left*/
+	/*margin: 10px 10px 5px 5px;*/
+	margin: 5px auto 5px auto;
+}

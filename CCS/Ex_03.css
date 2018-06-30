@@ -1,0 +1,16 @@
+img {
+
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+}
+
+h1 {
+	font-family: 'Shrikhand', cursive;
+	margin-left: 1.66%;
+	font-weight: 800;
+	font-size: 200px;
+	border-bottom: 3px #f2f2f2 solid;
+	width: 30%;
+	padding-bottom: 20px;
+}
